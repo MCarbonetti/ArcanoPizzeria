@@ -1,0 +1,146 @@
+body {
+  background-color: #ffcea9;
+}
+
+.container-fluid {
+  background-color: #ffcea9;
+}
+
+.navbar-brand, .nav-link, .dropdown-item {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #440c06;
+}
+
+.navbar-brand {
+  font-size: 25px;
+}
+
+.nav-link, .dropdown-item {
+  font-size: 20px;
+}
+
+.dropdown-menu {
+  background-color: #ffcea9;
+}
+
+.carousel {
+  width: 90%;
+  max-height: 600px; 
+  margin: 0 auto;
+}
+
+.tarjeta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.tarjeta {
+  width: 100%;
+  border: 5px solid #440c06;
+  border-radius: 0.5rem;
+  background-color: #440c06;
+}
+
+.tarjeta img {
+  width: 100%;
+  height: auto;
+  border-bottom: 3px solid #fff5ed; 
+}
+
+.tarjeta-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #fff5ed;
+  text-align: center;
+}
+
+.seccion-reseñas, .seccion-ubicacion {
+  padding: 20px;
+  background-color: #ffcea9;
+  border-radius: 8px;
+}
+
+.titulo-reseñas, .titulo-ubicacion {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #440c06;
+  text-align: center;
+}
+
+.reseñas {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reseña {
+  background-color: #440c06;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.texto-reseña {
+  font-size: 1rem;
+  color: #fff5ed;
+  margin-bottom: 10px;
+}
+
+.estrellas {
+  font-size: 1.2rem;
+  color: #FFD700;
+}
+
+.nombre-cliente {
+  font-size: 0.9rem;
+  color: #fff5ed;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.contenido-ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.descripcion-ubicacion {
+  font-size: 1rem;
+  color: #440c06;
+}
+
+.mapa iframe {
+  border-radius: 8px;
+}
+
+.pie-pagina {
+  padding: 20px;
+  background-color: #440c06;
+  color: #fff5ed;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.enlaces-footer {
+  margin-bottom: 15px;
+}
+
+.enlace-footer {
+  color: #fff5ed;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+
+.enlace-footer:hover {
+  color: #fd550d;
+}
+
+.copyright {
+  margin: 0;
+}
