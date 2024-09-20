@@ -144,3 +144,50 @@ body {
 .copyright {
   margin: 0;
 }
+
+.nosotros {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff5ed;
+  text-align: justify;
+  background-color: #440c06;
+  border: 5px solid #440c06;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-sizing: border-box;
+}
+
+.titulo-nosotros{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #440c06;
+  text-align: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.FAQs {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff5ed;
+  background-color: #440c06;
+  border: 5px solid #440c06;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  list-style-type: none;
+  margin: 1.5rem 0;
+}
+
+.num-faqs {
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #fd550d;
+}
+
+.FAQs li {
+  margin-bottom: 0.8rem;
+  text-align: left;
+}
+
+
