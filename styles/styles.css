@@ -1,14 +1,15 @@
-body {
-  background-color: #ffcea9;
+html, body {
+  background-color: #2B2B2B; /* Negro Grafito */
 }
 
 .container-fluid {
-  background-color: #ffcea9;
+  background-color: #E64A19; /* Negro Grafito */
 }
 
+/* . Estilos de Navegación */
 .navbar-brand, .nav-link, .dropdown-item {
   font-family: Arial, Helvetica, sans-serif;
-  color: #440c06;
+  color: #FFFFFF; /* Blanco */
 }
 
 .navbar-brand {
@@ -20,15 +21,17 @@ body {
 }
 
 .dropdown-menu {
-  background-color: #ffcea9;
+  background-color: #2B2B2B; /* Negro Grafito */
 }
 
+/* . Estilos del Carrusel */
 .carousel {
   width: 90%;
   max-height: 600px; 
   margin: 0 auto;
 }
 
+/* . Grid de Tarjetas */
 .tarjeta-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -38,11 +41,12 @@ body {
   justify-items: center;
 }
 
+/* . Estilos de Tarjetas */
 .tarjeta {
   width: 100%;
-  border: 5px solid #440c06;
+  border: 5px solid #E64A19; /* Naranja Oscuro */
   border-radius: 0.5rem;
-  background-color: #440c06;
+  background-color: #FF7043; /* Naranja Medio */
   position: relative; 
   overflow: hidden; 
 }
@@ -50,26 +54,27 @@ body {
 .tarjeta img {
   width: 100%;
   height: auto;
-  border-bottom: 3px solid #fff5ed; 
+  border-bottom: 3px solid #FFFFFF; /* Blanco */
 }
 
 .tarjeta-text {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: #fff5ed;
+  color: #FFFFFF; /* Blanco */
   text-align: center;
 }
 
+/* . Secciones de Reseñas y Ubicación */
 .seccion-reseñas, .seccion-ubicacion {
   padding: 20px;
-  background-color: #ffcea9;
+  background-color: #2B2B2B; /* Negro Grafito */
   border-radius: 8px;
 }
 
 .titulo-reseñas, .titulo-ubicacion {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #440c06;
+  color: #FFFFFF; /* Blanco */
   text-align: center;
 }
 
@@ -80,26 +85,26 @@ body {
 }
 
 .reseña {
-  background-color: #440c06;
+  background-color: #FF7043; /* Naranja Medio */
   padding: 15px;
   border-radius: 8px;
-  border: 1px solid #ddd;
+  border: 1px solid #E64A19; /* Naranja Oscuro */
 }
 
 .texto-reseña {
   font-size: 1rem;
-  color: #fff5ed;
+  color: #FFFFFF; /* Blanco */
   margin-bottom: 10px;
 }
 
 .estrellas {
   font-size: 1.2rem;
-  color: #FFD700;
+  color: #FFD700; /* Oro */
 }
 
 .nombre-cliente {
   font-size: 0.9rem;
-  color: #fff5ed;
+  color: #FFFFFF; /* Blanco */
   text-align: right;
   margin-top: 10px;
 }
@@ -113,17 +118,18 @@ body {
 
 .descripcion-ubicacion {
   font-size: 1rem;
-  color: #440c06;
+  color: #FFFFFF; /* Blanco */
 }
 
 .mapa iframe {
   border-radius: 8px;
 }
 
+/* . Pie de Página */
 .pie-pagina {
   padding: 20px;
-  background-color: #440c06;
-  color: #fff5ed;
+  background-color: #E64A19; /* Naranja Oscuro */
+  color: #FFFFFF; /* Blanco */
   text-align: center;
   font-size: 0.9rem;
 }
@@ -133,27 +139,28 @@ body {
 }
 
 .enlace-footer {
-  color: #fff5ed;
+  color: #FFFFFF; /* Blanco */
   text-decoration: none;
   margin: 0 15px;
   transition: color 0.3s;
 }
 
 .enlace-footer:hover {
-  color: #fd550d;
+  color: #FF8A65; /* Naranja Claro */
 }
 
 .copyright {
   margin: 0;
 }
 
+/* . Sección "Nosotros" */
 .nosotros {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  color: #fff5ed;
+  color: #FFFFFF; /* Blanco */
   text-align: justify;
-  background-color: #440c06;
-  border: 5px solid #440c06;
+  background-color: #FF7043; /* Naranja Medio */
+  border: 5px solid #E64A19; /* Naranja Oscuro */
   border-radius: 0.5rem;
   padding: 1.5rem;
   margin: 1.5rem 0;
@@ -163,18 +170,19 @@ body {
 .titulo-nosotros{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  color: #440c06;
+  color: #FFFFFF; /* Blanco */
   text-align: center;
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
 
+/* . Sección FAQs */
 .FAQs {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  color: #fff5ed;
-  background-color: #440c06;
-  border: 5px solid #440c06;
+  color: #FFFFFF; /* Blanco */
+  background-color: #FF7043; /* Naranja Medio */
+  border: 5px solid #E64A19; /* Naranja Oscuro */
   border-radius: 0.5rem;
   padding: 1.5rem;
   list-style-type: none;
@@ -184,7 +192,7 @@ body {
 .num-faqs {
   font-weight: bold;
   margin-top: 1rem;
-  color: #fd550d;
+  color: #2B2B2B; /* Naranja Oscuro */
 }
 
 .FAQs li {
@@ -192,6 +200,7 @@ body {
   text-align: left;
 }
 
+/* . Iconos de Redes Sociales */
 .social-media-icons {
   display: flex;
   justify-content: center;
@@ -207,9 +216,9 @@ body {
   height: 24px;
 }
 
-/* media queries */
+/* . Media Queries */
 
-/* pantallas chicas (móviles) */
+/* Pantallas chicas (móviles) */
 @media (max-width: 576px) {
   .navbar-brand {
       font-size: 1.5rem;
@@ -253,6 +262,7 @@ body {
   }
 }
 
+/* . Animación al Hover en Tarjetas */
 .tarjeta:hover {
   animation: bounce 1s ease-in-out;
 }
