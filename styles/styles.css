@@ -43,8 +43,8 @@ body {
   border: 5px solid #440c06;
   border-radius: 0.5rem;
   background-color: #440c06;
-  position: relative; /* Añadido para la animación */
-  overflow: hidden; /* Añadido para la animación */
+  position: relative; 
+  overflow: hidden; 
 }
 
 .tarjeta img {
@@ -253,7 +253,6 @@ body {
   }
 }
 
-/* *** NUEVA ANIMACIÓN bounce AL HACER HOVER EN LAS TARJETAS *** */
 .tarjeta:hover {
   animation: bounce 1s ease-in-out;
 }
