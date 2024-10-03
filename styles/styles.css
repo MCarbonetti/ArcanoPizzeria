@@ -43,6 +43,8 @@ body {
   border: 5px solid #440c06;
   border-radius: 0.5rem;
   background-color: #440c06;
+  position: relative; /* Añadido para la animación */
+  overflow: hidden; /* Añadido para la animación */
 }
 
 .tarjeta img {
@@ -205,7 +207,7 @@ body {
   height: 24px;
 }
 
-/* media querys */
+/* media queries */
 
 /* pantallas chicas (móviles) */
 @media (max-width: 576px) {
@@ -251,4 +253,7 @@ body {
   }
 }
 
-
+/* *** NUEVA ANIMACIÓN bounce AL HACER HOVER EN LAS TARJETAS *** */
+.tarjeta:hover {
+  animation: bounce 1s ease-in-out;
+}
