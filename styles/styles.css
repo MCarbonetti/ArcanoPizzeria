@@ -1,15 +1,15 @@
 html, body {
-  background-color: #2B2B2B; /* Negro Grafito */
+  background-color: #2B2B2B; 
 }
 
 .container-fluid {
-  background-color: #E64A19; /* Negro Grafito */
+  background-color: #E64A19; 
 }
 
 /* . Estilos de Navegación */
 .navbar-brand, .nav-link, .dropdown-item {
   font-family: Arial, Helvetica, sans-serif;
-  color: #FFFFFF; /* Blanco */
+  color: #FFFFFF; 
 }
 
 .navbar-brand {
@@ -21,7 +21,7 @@ html, body {
 }
 
 .dropdown-menu {
-  background-color: #2B2B2B; /* Negro Grafito */
+  background-color: #2B2B2B; 
 }
 
 /* . Estilos del Carrusel */
@@ -44,9 +44,9 @@ html, body {
 /* . Estilos de Tarjetas */
 .tarjeta {
   width: 100%;
-  border: 5px solid #E64A19; /* Naranja Oscuro */
+  border: 5px solid #E64A19; 
   border-radius: 0.5rem;
-  background-color: #FF7043; /* Naranja Medio */
+  background-color: #FF7043; 
   position: relative; 
   overflow: hidden; 
 }
@@ -54,27 +54,27 @@ html, body {
 .tarjeta img {
   width: 100%;
   height: auto;
-  border-bottom: 3px solid #FFFFFF; /* Blanco */
+  border-bottom: 3px solid #FFFFFF;
 }
 
 .tarjeta-text {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
-  color: #FFFFFF; /* Blanco */
+  color: #FFFFFF; 
   text-align: center;
 }
 
 /* . Secciones de Reseñas y Ubicación */
 .seccion-reseñas, .seccion-ubicacion {
   padding: 20px;
-  background-color: #2B2B2B; /* Negro Grafito */
+  background-color: #2B2B2B; 
   border-radius: 8px;
 }
 
 .titulo-reseñas, .titulo-ubicacion {
   font-size: 2rem;
   margin-bottom: 15px;
-  color: #FFFFFF; /* Blanco */
+  color: #FFFFFF; 
   text-align: center;
 }
 
@@ -85,26 +85,26 @@ html, body {
 }
 
 .reseña {
-  background-color: #FF7043; /* Naranja Medio */
+  background-color: #FF7043; 
   padding: 15px;
   border-radius: 8px;
-  border: 1px solid #E64A19; /* Naranja Oscuro */
+  border: 1px solid #E64A19; 
 }
 
 .texto-reseña {
   font-size: 1rem;
-  color: #FFFFFF; /* Blanco */
+  color: #FFFFFF;
   margin-bottom: 10px;
 }
 
 .estrellas {
   font-size: 1.2rem;
-  color: #FFD700; /* Oro */
+  color: #FFD700; 
 }
 
 .nombre-cliente {
   font-size: 0.9rem;
-  color: #FFFFFF; /* Blanco */
+  color: #FFFFFF; 
   text-align: right;
   margin-top: 10px;
 }
@@ -118,7 +118,7 @@ html, body {
 
 .descripcion-ubicacion {
   font-size: 1rem;
-  color: #FFFFFF; /* Blanco */
+  color: #FFFFFF; 
 }
 
 .mapa iframe {
@@ -128,8 +128,8 @@ html, body {
 /* . Pie de Página */
 .pie-pagina {
   padding: 20px;
-  background-color: #E64A19; /* Naranja Oscuro */
-  color: #FFFFFF; /* Blanco */
+  background-color: #E64A19; 
+  color: #FFFFFF; 
   text-align: center;
   font-size: 0.9rem;
 }
@@ -139,14 +139,14 @@ html, body {
 }
 
 .enlace-footer {
-  color: #FFFFFF; /* Blanco */
+  color: #FFFFFF; 
   text-decoration: none;
   margin: 0 15px;
   transition: color 0.3s;
 }
 
 .enlace-footer:hover {
-  color: #FF8A65; /* Naranja Claro */
+  color: #FF8A65; 
 }
 
 .copyright {
@@ -157,10 +157,10 @@ html, body {
 .nosotros {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  color: #FFFFFF; /* Blanco */
+  color: #FFFFFF; 
   text-align: justify;
-  background-color: #FF7043; /* Naranja Medio */
-  border: 5px solid #E64A19; /* Naranja Oscuro */
+  background-color: #FF7043; 
+  border: 5px solid #E64A19; 
   border-radius: 0.5rem;
   padding: 1.5rem;
   margin: 1.5rem 0;
@@ -170,7 +170,7 @@ html, body {
 .titulo-nosotros{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
-  color: #FFFFFF; /* Blanco */
+  color: #FFFFFF; 
   text-align: center;
   margin-bottom: 1rem;
   margin-top: 1rem;
@@ -180,9 +180,9 @@ html, body {
 .FAQs {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
-  color: #FFFFFF; /* Blanco */
-  background-color: #FF7043; /* Naranja Medio */
-  border: 5px solid #E64A19; /* Naranja Oscuro */
+  color: #FFFFFF; 
+  background-color: #FF7043; 
+  border: 5px solid #E64A19; 
   border-radius: 0.5rem;
   padding: 1.5rem;
   list-style-type: none;
@@ -192,7 +192,7 @@ html, body {
 .num-faqs {
   font-weight: bold;
   margin-top: 1rem;
-  color: #2B2B2B; /* Naranja Oscuro */
+  color: #2B2B2B; 
 }
 
 .FAQs li {
