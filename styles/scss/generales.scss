@@ -1,0 +1,10 @@
+// Estilos generales
+@import 'variables';
+
+html, body {
+    background-color: $bg-dark;
+}
+
+    .container-fluid {
+    background-color: $orange;
+}

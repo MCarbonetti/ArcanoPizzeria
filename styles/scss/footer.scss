@@ -1,0 +1,29 @@
+// Pie de Página
+@import 'variables';
+
+.pie-pagina {
+    padding: 20px;
+    background-color: $orange;
+    color: $white;
+    text-align: center;
+    font-size: 0.9rem;
+
+    .enlaces-footer {
+        margin-bottom: 15px;
+
+        .enlace-footer {
+        color: $white;
+        text-decoration: none;
+        margin: 0 15px;
+        transition: color 0.3s;
+
+        &:hover {
+            color: $hover-orange;
+        }
+        }
+    }
+
+    .copyright {
+        margin: 0;
+    }
+}

@@ -1,0 +1,9 @@
+// Estilos de Títulos Globales
+@import 'variables';
+
+.titulo-reseñas, .titulo-ubicacion {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: $white;
+    text-align: center;
+}

@@ -1,0 +1,20 @@
+// Estilos de Navegación
+@import 'variables';
+
+.navbar {
+    .navbar-brand, .nav-link, .dropdown-item {
+        font-family: Arial, Helvetica, sans-serif;
+        color: $white;
+        &.navbar-brand {
+        font-size: 25px;
+        }
+
+        &.nav-link, &.dropdown-item {
+        font-size: 20px;
+        }
+    }
+
+    .dropdown-menu {
+        background-color: $bg-dark;
+    }
+}

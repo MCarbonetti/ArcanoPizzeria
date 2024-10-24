@@ -1,0 +1,28 @@
+// Estilos de Tarjetas
+@import 'variables'; 
+
+.tarjeta {
+    width: 100%;
+    border: 5px solid $orange;
+    border-radius: 0.5rem;
+    background-color: $light-orange;
+    position: relative;
+    overflow: hidden;
+
+    img {
+        width: 100%;
+        height: auto;
+        border-bottom: 3px solid $white;
+    }
+
+    .tarjeta-text {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        color: $white;
+        text-align: center;
+    }
+
+    &:hover {
+        animation: bounce 1s ease-in-out;
+    }
+}

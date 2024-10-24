@@ -1,0 +1,23 @@
+// Sección FAQs
+.FAQs {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    color: $white;
+    background-color: $light-orange;
+    border: 5px solid $orange;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    list-style-type: none;
+    margin: 1.5rem 0;
+
+    .num-faqs {
+        font-weight: bold;
+        margin-top: 1rem;
+        color: $bg-dark;
+    }
+
+    li {
+        margin-bottom: 0.8rem;
+        text-align: left;
+    }
+}

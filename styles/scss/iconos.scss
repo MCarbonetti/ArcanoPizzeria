@@ -1,0 +1,17 @@
+// Iconos de Redes Sociales
+@import 'variables';
+
+.social-media-icons {
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem 0;
+
+    a {
+        margin: 0 10px;
+
+        .logo-miniatura {
+        width: 24px;
+        height: 24px;
+        }
+    }
+}

@@ -1,0 +1,57 @@
+// Secciones de Reseñas y Ubicación
+@import 'variables';
+
+.seccion-reseñas, .seccion-ubicacion {
+    padding: 20px;
+    background-color: $bg-dark;
+    border-radius: 8px;
+
+    .reseñas {
+        display: flex;
+        flex-direction: column;
+            gap: 15px;
+
+        .reseña {
+        background-color: $light-orange;
+        padding: 15px;
+        border-radius: 8px;
+        border: 1px solid $orange;
+
+        .texto-reseña {
+            font-size: 1rem;
+            color: $white;
+            margin-bottom: 10px;
+        }
+
+        .estrellas {
+            font-size: 1.2rem;
+            color: $gold;
+        }
+
+        .nombre-cliente {
+            font-size: 0.9rem;
+            color: $white;
+            text-align: right;
+            margin-top: 10px;
+        }
+        }
+    }
+
+    .contenido-ubicacion {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+
+        .descripcion-ubicacion {
+        font-size: 1rem;
+        color: $white;
+        }
+
+        .mapa {
+        iframe {
+            border-radius: 8px;
+        }
+        }
+    }
+}

@@ -1,0 +1,225 @@
+@charset "UTF-8";
+.carousel {
+  width: 90%;
+  max-height: 600px;
+  margin: 0 auto;
+}
+
+.tarjeta {
+  width: 100%;
+  border: 5px solid #E64A19;
+  border-radius: 0.5rem;
+  background-color: #FF7043;
+  position: relative;
+  overflow: hidden;
+}
+.tarjeta img {
+  width: 100%;
+  height: auto;
+  border-bottom: 3px solid #FFFFFF;
+}
+.tarjeta .tarjeta-text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: #FFFFFF;
+  text-align: center;
+}
+.tarjeta:hover {
+  animation: bounce 1s ease-in-out;
+}
+
+.pie-pagina {
+  padding: 20px;
+  background-color: #E64A19;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 0.9rem;
+}
+.pie-pagina .enlaces-footer {
+  margin-bottom: 15px;
+}
+.pie-pagina .enlaces-footer .enlace-footer {
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 15px;
+  transition: color 0.3s;
+}
+.pie-pagina .enlaces-footer .enlace-footer:hover {
+  color: #FF8A65;
+}
+.pie-pagina .copyright {
+  margin: 0;
+}
+
+html, body {
+  background-color: #2B2B2B;
+}
+
+.container-fluid {
+  background-color: #E64A19;
+}
+
+.tarjeta-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 80rem;
+  margin: 0 auto;
+  justify-items: center;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  padding: 0.5rem 0;
+}
+.social-media-icons a {
+  margin: 0 10px;
+}
+.social-media-icons a .logo-miniatura {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 576px) {
+  .navbar .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .navbar .titulo-reseñas {
+    font-size: 1.5rem;
+  }
+  .tarjeta {
+    width: 80%;
+  }
+  .tarjeta-grid {
+    grid-template-columns: 1fr;
+  }
+  #carouselExample img {
+    height: auto;
+  }
+}
+@media (min-width: 577px) {
+  #carouselExample img {
+    height: 400px;
+  }
+}
+@media (max-width: 768px) {
+  .mapa iframe {
+    width: 100%;
+    height: 250px;
+  }
+}
+@media (min-width: 769px) {
+  .mapa iframe {
+    width: 600px;
+    height: 450px;
+  }
+}
+.navbar .navbar-brand, .navbar .nav-link, .navbar .dropdown-item {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFFFFF;
+}
+.navbar .navbar-brand.navbar-brand, .navbar .nav-link.navbar-brand, .navbar .dropdown-item.navbar-brand {
+  font-size: 25px;
+}
+.navbar .navbar-brand.nav-link, .navbar .navbar-brand.dropdown-item, .navbar .nav-link.nav-link, .navbar .nav-link.dropdown-item, .navbar .dropdown-item.nav-link, .navbar .dropdown-item.dropdown-item {
+  font-size: 20px;
+}
+.navbar .dropdown-menu {
+  background-color: #2B2B2B;
+}
+
+.nosotros {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  text-align: justify;
+  background-color: #FF7043;
+  border: 5px solid #E64A19;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  margin: 1.5rem 0;
+  box-sizing: border-box;
+}
+.nosotros .titulo-nosotros {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  color: #FFFFFF;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.seccion-reseñas, .seccion-ubicacion {
+  padding: 20px;
+  background-color: #2B2B2B;
+  border-radius: 8px;
+}
+.seccion-reseñas .reseñas, .seccion-ubicacion .reseñas {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.seccion-reseñas .reseñas .reseña, .seccion-ubicacion .reseñas .reseña {
+  background-color: #FF7043;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #E64A19;
+}
+.seccion-reseñas .reseñas .reseña .texto-reseña, .seccion-ubicacion .reseñas .reseña .texto-reseña {
+  font-size: 1rem;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+.seccion-reseñas .reseñas .reseña .estrellas, .seccion-ubicacion .reseñas .reseña .estrellas {
+  font-size: 1.2rem;
+  color: #FFD700;
+}
+.seccion-reseñas .reseñas .reseña .nombre-cliente, .seccion-ubicacion .reseñas .reseña .nombre-cliente {
+  font-size: 0.9rem;
+  color: #FFFFFF;
+  text-align: right;
+  margin-top: 10px;
+}
+.seccion-reseñas .contenido-ubicacion, .seccion-ubicacion .contenido-ubicacion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+.seccion-reseñas .contenido-ubicacion .descripcion-ubicacion, .seccion-ubicacion .contenido-ubicacion .descripcion-ubicacion {
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+.seccion-reseñas .contenido-ubicacion .mapa iframe, .seccion-ubicacion .contenido-ubicacion .mapa iframe {
+  border-radius: 8px;
+}
+
+.titulo-reseñas, .titulo-ubicacion {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.FAQs {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #FFFFFF;
+  background-color: #FF7043;
+  border: 5px solid #E64A19;
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+  list-style-type: none;
+  margin: 1.5rem 0;
+}
+.FAQs .num-faqs {
+  font-weight: bold;
+  margin-top: 1rem;
+  color: #2B2B2B;
+}
+.FAQs li {
+  margin-bottom: 0.8rem;
+  text-align: left;
+}
+
+/*# sourceMappingURL=styles.css.map */
